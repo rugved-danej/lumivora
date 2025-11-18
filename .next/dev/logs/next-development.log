@@ -1,15 +1,28 @@
-[00:00:17.778] Server  LOG      ✓ Ready in 13.9s
-[00:00:21.190] Server  LOG      ○ Compiling / ...
-[00:00:33.586] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:37.088] Server  LOG      ○ Compiling /shop ...
-[00:00:54.599] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:58.822] Server  LOG      ○ Compiling /api/products ...
-[00:02:46.293] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:59.597] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:03.474] Browser LOG     Product name: a dog
-[00:03:03.474] Browser LOG     Generated slug: a-dog
-[00:03:03.474] Browser LOG     Navigating to: /product/a-dog
-[00:03:06.527] Server  LOG      ○ Compiling /product/[slug] ...
-[00:03:19.669] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:03:22.684] Server  LOG      ○ Compiling /api/products/by-slug/[slug] ...
-[00:03:40.013] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:16.424] Server  LOG      ✓ Ready in 12.4s
+[00:02:34.608] Server  LOG      ○ Compiling /shop ...
+[00:02:47.875] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:51.912] Server  LOG      ○ Compiling /api/products ...
+[00:03:07.076] Browser LOG     Product name: a dog
+[00:03:07.076] Browser LOG     Generated slug: a-dog
+[00:03:07.076] Browser LOG     Navigating to: /product/a-dog
+[00:03:10.094] Server  LOG      ○ Compiling /product/[slug] ...
+[00:03:18.992] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:03:22.261] Server  LOG      ○ Compiling /api/products/by-slug/[slug] ...
+[00:03:34.199] Server  LOG      ○ Compiling /api/wishlist ...
+[00:03:39.872] Server  LOG      ○ Compiling /checkout ...
+[00:03:51.936] Server  LOG      ○ Compiling /api/products/[id] ...
+[00:04:08.688] Server  ERROR   Error fetching product: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+[00:04:12.210] Server  ERROR   Error fetching product: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+[00:05:52.762] Browser LOG     Product name: A Cat
+[00:05:52.762] Browser LOG     Generated slug: a-cat
+[00:05:52.762] Browser LOG     Navigating to: /product/a-cat
+[00:05:57.667] Server  ERROR   Error fetching product: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+[00:06:01.031] Server  ERROR   Error fetching product: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+[00:06:27.348] Browser LOG     Product name: a dog
+[00:06:27.349] Browser LOG     Generated slug: a-dog
+[00:06:27.349] Browser LOG     Navigating to: /product/a-dog
+[00:06:31.666] Server  ERROR   Error fetching product: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+[00:06:34.138] Server  ERROR   Error fetching product: BSONError: input must be a 24 character hex string, 12 byte Uint8Array, or an integer
+[00:06:40.041] Browser LOG     Product name: a dog
+[00:06:40.041] Browser LOG     Generated slug: a-dog
+[00:06:40.041] Browser LOG     Navigating to: /product/a-dog

@@ -2,15 +2,15 @@ import { NextResponse } from 'next/server'
 import clientPromise from '@/lib/mongodb'
 
 function slugify(text) {
-  if (!text) return ''
-  return text
-    .toString()
-    .trim()
-    .toLowerCase()
-    .replace(/[^ws-]/g, '')
-    .replace(/s+/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/^-+|-+$/g, '')
+ if (!text) return ''
+ return text
+ .toString()
+ .trim()
+ .toLowerCase()
+ .replace(/[^\w\s-]/g, '') // remove invalid chars
+ .replace(/\s+/g, '-') // collapse whitespace to dashes
+ .replace(/-+/g, '-') // collapse multiple dashes
+ .replace(/^-+|-+$/g, '') // trim leading/trailing dashes
 }
 
 export async function GET(request, { params }) {

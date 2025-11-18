@@ -1,9 +1,10 @@
 {
-  "/api/testimonials/route": "app/api/testimonials/route.js",
   "/api/auth/me/route": "app/api/auth/me/route.js",
   "/api/products/route": "app/api/products/route.js",
   "/api/products/by-slug/[slug]/route": "app/api/products/by-slug/[slug]/route.js",
-  "/page": "app/page.js",
+  "/api/wishlist/route": "app/api/wishlist/route.js",
+  "/api/products/[id]/route": "app/api/products/[id]/route.js",
   "/shop/page": "app/shop/page.js",
-  "/product/[slug]/page": "app/product/[slug]/page.js"
+  "/product/[slug]/page": "app/product/[slug]/page.js",
+  "/checkout/page": "app/checkout/page.js"
 }
